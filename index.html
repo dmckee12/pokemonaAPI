@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <div id="battle-container">
+      <h1>Battle Two Pokémon</h1>
+      <div id="button-container">
+        <button onclick="createPokemon()">Generate First Pokémon</button>
+        <img
+          id="pokeBall"
+          src="./images/Poké_Ball_icon.svg.png"
+          alt="pokemon ball"
+        />
+        <button onclick="createPokemon1()">Generate Second Pokémon</button>
+      </div>
+      <div id="inner-container">
+        <div id="pokemon-container"></div>
+        <div id="pokemon1-container"></div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
